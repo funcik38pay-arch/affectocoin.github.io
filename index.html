@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Affecto Coin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <img src="img/1_lvl.png" alt="Avatar" class="avatar" id="avatar">
+            <div class="user-info">
+                <div class="username" id="username">Загрузка...</div>
+                <div class="level-badge">
+                    <img src="img/image-no-bg-preview (3).png" alt="medal" class="medal-icon">
+                    <span id="levelDisplay">1 Уровень</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="game-area">
+            <div class="score-container">
+                <img src="img/coin.png" alt="coin" class="coin-logo">
+                <span class="score" id="score">0</span>
+            </div>
+
+            <div class="character-container" id="characterContainer">
+                <img src="img/1_lvl.png" alt="Character" class="main-character" id="character">
+            </div>
+
+            <div class="energy-section">
+                <div class="energy-info">
+                    <img src="img/energy.png" alt="lightning" class="energy-icon">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="energyFill"></div>
+                    </div>
+                    <span class="energy-text" id="energyText">1000/1000</span>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav">
+            <div class="nav-item" onclick="window.location.href='frens.html'">
+                <img src="img/frens.png" alt="Frens">
+                <span>Frens</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='earn.html'">
+                <img src="img/earn.png" alt="Earn">
+                <span>Earn</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='skins.html'">
+                <img src="img/skins.png" alt="Skins">
+                <span>Skins</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='boosts.html'">
+                <img src="img/boosts.png" alt="Boosts">
+                <span>Boosts</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='top.html'">
+                <img src="img/top.png" alt="Top">
+                <span>Top</span>
+            </div>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
